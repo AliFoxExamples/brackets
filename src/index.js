@@ -1,7 +1,7 @@
 module.exports = function check(str, bracketsConfig) {
   str = str.split('');
 
-  let map = new Map (arr);
+  let map = new Map (bracketsConfig);
 
   for (let i = 0; i < str.length-1; i++) {
 
